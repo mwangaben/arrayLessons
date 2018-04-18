@@ -1,1 +1,1 @@
-# Learning Working with Array in Js 
+# Learning Working with Array in Js [![Build Status](https://travis-ci.org/mwangaben/arrayLessons.svg?branch=master)](https://travis-ci.org/mwangaben/arrayLessons)

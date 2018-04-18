@@ -1,20 +1,20 @@
 {
-  "name": "deleteThis",
-  "version": "1.0.0",
+  "name"       : "deleteThis",
+  "version"    : "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha-webpack --webpack-config webpack.config.js --require test/setup.js test/**/*.spec.js",
+  "main"       : "index.js",
+  "scripts"    : {
+    "test" : "mocha --require test/setup.js test/**/*.spec.js",
     "watch": "mocha --watch  --require test/setup.js test/**/*.spec.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords"       : [],
+  "author"         : "",
+  "license"        : "ISC",
   "devDependencies": {
-    "expect": "^22.4.3",
-    "expect.js": "^0.3.1",
-    "mocha": "^4.0.1",
+    "expect"       : "^22.4.3",
+    "expect.js"    : "^0.3.1",
+    "mocha"        : "^4.0.1",
     "mocha-webpack": "^1.0.1",
-    "webpack": "^4.6.0"
+    "webpack"      : "^4.6.0"
   }
 }
